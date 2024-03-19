@@ -12,6 +12,11 @@
 		E539C1C22BA5CDB100086ACE /* Coordinator .swift in Sources */ = {isa = PBXBuildFile; fileRef = E539C1C12BA5CDB100086ACE /* Coordinator .swift */; };
 		E539C1C42BA5DDEA00086ACE /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539C1C32BA5DDE900086ACE /* AppCoordinator.swift */; };
 		E539C1C62BA5DE9300086ACE /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539C1C52BA5DE9300086ACE /* OnboardingCoordinator.swift */; };
+		E539C1C82BA5E1F600086ACE /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539C1C72BA5E1F600086ACE /* HomeCoordinator.swift */; };
+		E539C1CA2BA5E23E00086ACE /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539C1C92BA5E23E00086ACE /* OrderCoordinator.swift */; };
+		E539C1CC2BA5E29A00086ACE /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539C1CB2BA5E29A00086ACE /* ListCoordinator.swift */; };
+		E539C1CE2BA5E2CA00086ACE /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539C1CD2BA5E2CA00086ACE /* ProfileCoordinator.swift */; };
+		E539C1D02BA5E2F600086ACE /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539C1CF2BA5E2F600086ACE /* TabBarController.swift */; };
 		E5A8C5032B6E3AE5002308AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8C5022B6E3AE5002308AB /* AppDelegate.swift */; };
 		E5A8C5052B6E3AE5002308AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8C5042B6E3AE5002308AB /* SceneDelegate.swift */; };
 		E5A8C5072B6E3AE5002308AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8C5062B6E3AE5002308AB /* ViewController.swift */; };
@@ -39,6 +44,11 @@
 		E539C1C12BA5CDB100086ACE /* Coordinator .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coordinator .swift"; sourceTree = "<group>"; };
 		E539C1C32BA5DDE900086ACE /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		E539C1C52BA5DE9300086ACE /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		E539C1C72BA5E1F600086ACE /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		E539C1C92BA5E23E00086ACE /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
+		E539C1CB2BA5E29A00086ACE /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		E539C1CD2BA5E2CA00086ACE /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		E539C1CF2BA5E2F600086ACE /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E5A8C4FF2B6E3AE5002308AB /* food delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "food delivery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A8C5022B6E3AE5002308AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5A8C5042B6E3AE5002308AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +95,7 @@
 		E539C1BF2BA5CD8700086ACE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E539C1CF2BA5E2F600086ACE /* TabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -95,6 +106,10 @@
 				E539C1C12BA5CDB100086ACE /* Coordinator .swift */,
 				E539C1C32BA5DDE900086ACE /* AppCoordinator.swift */,
 				E539C1C52BA5DE9300086ACE /* OnboardingCoordinator.swift */,
+				E539C1C72BA5E1F600086ACE /* HomeCoordinator.swift */,
+				E539C1C92BA5E23E00086ACE /* OrderCoordinator.swift */,
+				E539C1CB2BA5E29A00086ACE /* ListCoordinator.swift */,
+				E539C1CD2BA5E2CA00086ACE /* ProfileCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -266,7 +281,12 @@
 				E539C1BD2BA5B9DB00086ACE /* AppColors.swift in Sources */,
 				E539C1C62BA5DE9300086ACE /* OnboardingCoordinator.swift in Sources */,
 				E539C1C42BA5DDEA00086ACE /* AppCoordinator.swift in Sources */,
+				E539C1CA2BA5E23E00086ACE /* OrderCoordinator.swift in Sources */,
 				E5A8C5052B6E3AE5002308AB /* SceneDelegate.swift in Sources */,
+				E539C1CE2BA5E2CA00086ACE /* ProfileCoordinator.swift in Sources */,
+				E539C1CC2BA5E29A00086ACE /* ListCoordinator.swift in Sources */,
+				E539C1C82BA5E1F600086ACE /* HomeCoordinator.swift in Sources */,
+				E539C1D02BA5E2F600086ACE /* TabBarController.swift in Sources */,
 				E539C1C22BA5CDB100086ACE /* Coordinator .swift in Sources */,
 				E539C1BB2BA5B8A100086ACE /* UIColor+Extension.swift in Sources */,
 			);
